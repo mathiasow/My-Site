@@ -6,6 +6,10 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	color: white;
 }
@@ -14,16 +18,23 @@ a:hover {
 	color: darkblue;
 }
 
+
+.line {
+	background-color: white;
+}
+
+
 img {
 	margin: auto;
-	margin-top: -97px;
-	margin-right: -60px;
-	height: 600px;
+	margin-top: 0px;
+	margin-right: 0px;
+	height: 500px;
+	border-radius: 5px;
 }
 
 
 .site-header {
-	background-color: #6724bf;
+	background-color: #312a3b;
 	margin-bottom: 5px;
 	box-shadow: 0 8px 6px -6px black;
 	border-radius: 5px;
@@ -53,8 +64,8 @@ a:hover {
 }
 
 .main-content {
-	background-color: white;
-	box-shadow: 10px 10px 5px #2a1d3b;
+	background-color: #2d2c32;
+	box-shadow: 10px 10px 5px #312a3b;
 	height: 500px;
 	border-radius: 5px;
 	max-width: 1000px;
@@ -65,12 +76,12 @@ a:hover {
 
 
 .site-main {
-	background-color: #3b2a52;
+	background-color: #383440;
 	padding: 80px;
 }
 
 .site-footer {
-	background-color: tomato;
+	background-color: #312a3b;
 	border-radius: 5px;
 	height: 65px;
 	box-shadow: 0 8px 6px -6px purple;
@@ -78,34 +89,36 @@ a:hover {
 }
 
 h1 {	
-	text-align: left;
-	color: #6724bf;
+	text-align: center;
+	font-weight: 700;
+	color: white;
 	font-size: 50px;
 	padding-top: 5px;
 	padding-bottom: 20px;
 	padding-left: 10px;
+	border-bottom: 10px solid #fff;
 
 }
-h2 {
-	text-align: left;
-	padding-bottom: 0px;
-	padding-top: 0px;
-	padding-left: 10px;
-}
+
 h3 {
-	text-align: left;
+	text-align: center;
 	padding-left: 10px;
+	color: white;
+	font-weight: 300;
 }
 
 .button {
-	background-color: lightgreen;
-	width: 23%;
-	border-radius: 5px;
+	background-color: purple;
+	color: white;
+	width: 28%;
+	border-radius: 7px;
 	text-align: center;
 	margin: auto;
 	height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 15px;
+	font-weight: 400;
 	
 }
