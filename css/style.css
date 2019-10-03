@@ -539,7 +539,7 @@ li {
 	display: flex;
   	align-items: flex-start;
   	justify-content: center;
-  	animation: cssAnimation 0s ease-in 999s forwards;
+  	animation: cssAnimation 0s ease-in 3s forwards;
 }
 
 
