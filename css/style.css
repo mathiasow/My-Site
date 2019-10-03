@@ -152,15 +152,75 @@ li {
 			background-color: #2d2c32;
 		}
 
-		.site-header img {
-			
+		.site-header a {
+			padding-left: -10px;
 		}
+
+		.site-header img {
+			margin-left: -30px;
+		}
+
+
+
+
+		.main-content img {
+			margin-top: 130px;
+			height: 300px;
+			width: 100%;
+
+		}
+
+
+		.main-tekst h1 {
+			position: relative;
+
+		}
+
+
+		.main-tekst {
+		position: absolute;
+		top: -100;
+		left: 20px;
+
+		}
+
+
+		.main-content-2 img {
+			margin-top: 250px;
+			height: 250px;
+			width: 100%;
+
+		}
+
+
+		.main-tekst-2 h1 {
+			position: relative;
+
+		}
+
+
+		.main-tekst-2 {
+		position: absolute;
+		top: 500;
+		left: 20px;
+
+		}
+
+		.main-tekst h3 {
+
+			display: none;
+
+		}
+
+
+		
+
+
+
 	}
 
 
-.main-text {
 
-}
 
 
 .main-content-2 {
@@ -169,7 +229,6 @@ li {
 	height: 500px;
 	border-radius: 5px;
 	max-width: 1000px;
-	display: flex;
 	margin: 80px auto;
 }
 
@@ -480,7 +539,7 @@ li {
 	display: flex;
   	align-items: flex-start;
   	justify-content: center;
-  	animation: cssAnimation 0s ease-in 5s forwards;
+  	animation: cssAnimation 0s ease-in 999s forwards;
 }
 
 
@@ -495,8 +554,8 @@ li {
 
 
 .store-Loader {
-  height: 90px;
-  width: 90px;
+	height: 250px;
+	width: 56px;
   position: relative;
 }
 .store-Loader .store-Box {
@@ -586,7 +645,7 @@ li {
 	display: flex;
   	align-items: flex-start;
   	justify-content: center;
-  	animation: cssAnimation 0s ease-in 5s forwards;
+  	animation: cssAnimation 0s ease-in 3s forwards;
 }
 
 
