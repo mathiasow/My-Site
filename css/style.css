@@ -158,6 +158,31 @@ li {
 
 		}
 
+		.top-banner .glow-when-hover {
+			left: 71%;
+			margin-bottom: 40px;
+		}
+
+
+		.glow-when-hover {
+    margin-left: 70px;
+    margin-top: -47px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+		.top-banner .glow-on-hover {
+			
+		}
+
 
 
 		.top-banner {
@@ -414,7 +439,7 @@ li {
 	color: white;
 	font-size: 40px;
 	padding-bottom: 20px;
-	position: relative;
+	position: absolute;
 }
 
 .top-banner h1::after {
@@ -436,7 +461,6 @@ li {
 
 
 .top-banner img {
-	margin-top: -33px;
 	width: 100%;
 }
 
@@ -445,8 +469,6 @@ li {
 
 .top-banner {
 	    position: relative;
-	    height: 890.44px;
-	    background-color: #111111;
 }
 
 
@@ -1274,7 +1296,7 @@ li {
     color: white;
     background: black;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     z-index: 0;
     border-radius: 10px;
 }
@@ -1346,7 +1368,7 @@ li {
 
 
 .glow-on-hover {
-    margin-left: 70px;
+    margin-left: 250px;
     margin-top: -47px;
     width: 100px;
     height: 40px;
@@ -1355,7 +1377,7 @@ li {
     color: white;
     background: black;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     z-index: 0;
     border-radius: 10px;
 }
